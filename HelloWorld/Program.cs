@@ -10,7 +10,7 @@ namespace HelloWorld
             // Add input data
             var input = new ModelInput()
             {
-                Text = "Bad."
+                Text = "This place was awesome!"
             };
 
             // Load model and predict output of sample data
