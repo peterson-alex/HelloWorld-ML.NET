@@ -32,6 +32,7 @@ namespace HelloWorldML.Model
             string projectDirectory = Directory.GetParent(workingDirectory).Parent.Parent.Parent.FullName;
             string modelPath = projectDirectory + @"\HelloWorldML.Model\MLModel.zip";
 
+            // create the prediction engine
             ITransformer mlModel = mlContext.Model.Load(modelPath, out var modelInputSchema);
             var predEngine = mlContext.Model.CreatePredictionEngine<ModelInput, ModelOutput>(mlModel);
 
