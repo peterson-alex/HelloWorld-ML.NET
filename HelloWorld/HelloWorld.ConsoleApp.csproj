@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\HelloWorldML.Model\HelloWorldML.Model.csproj" />
+    <ProjectReference Include="..\HelloWorldML.Model\HelloWorld.MLModel.csproj" />
   </ItemGroup>
 
 </Project>
