@@ -10,7 +10,7 @@ namespace HelloWorld.ConsoleApp
             // Add input data
             var input = new ModelInput()
             {
-                Text = "This place was awesome!"
+                Text = "This place was awesome!" // text to be analyzed 
             };
 
             // Load model and predict output of sample data
