@@ -1,5 +1,5 @@
 ﻿using System;
-using HelloWorldML.Model;
+using HelloWorld.MLModel;
 
 namespace HelloWorld
 {

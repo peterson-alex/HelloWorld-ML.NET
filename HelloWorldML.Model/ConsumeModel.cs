@@ -6,9 +6,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Microsoft.ML;
-using HelloWorldML.Model;
 
-namespace HelloWorldML.Model
+namespace HelloWorld.MLModel
 {
     public class ConsumeModel
     {

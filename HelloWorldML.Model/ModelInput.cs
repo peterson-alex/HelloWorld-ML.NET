@@ -1,6 +1,6 @@
 using Microsoft.ML.Data;
 
-namespace HelloWorldML.Model
+namespace HelloWorld.MLModel
 {
     public class ModelInput
     {
