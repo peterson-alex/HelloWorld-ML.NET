@@ -1,7 +1,7 @@
 ﻿using System;
 using HelloWorld.MLModel;
 
-namespace HelloWorld
+namespace HelloWorld.ConsoleApp
 {
     class Program
     {
