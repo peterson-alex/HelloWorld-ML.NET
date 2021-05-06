@@ -28,9 +28,7 @@ namespace HelloWorldML.Model
             MLContext mlContext = new MLContext();
 
             // Get the absolute path to the model
-            string workingDirectory = Environment.CurrentDirectory; 
-            string projectDirectory = Directory.GetParent(workingDirectory).Parent.Parent.Parent.FullName;
-            string modelPath = projectDirectory + @"\HelloWorldML.Model\MLModel.zip";
+            string modelPath = AppDomain.CurrentDomain.BaseDirectory + @"\MLModel.zip";
 
             // create the prediction engine
             ITransformer mlModel = mlContext.Model.Load(modelPath, out var modelInputSchema);
