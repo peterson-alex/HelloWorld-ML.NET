@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorld.ConsoleApp", "HelloWorld.ConsoleApp\HelloWorld.ConsoleApp.csproj", "{8E89A588-751C-409B-99EF-D7B14A8E5911}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorld.MLModel", "HelloWorldML.Model\HelloWorld.MLModel.csproj", "{8FAF2FFB-FD2D-4979-976D-F8E466C3CC72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorld.MLModel", "HelloWorld.MLModel\HelloWorld.MLModel.csproj", "{8FAF2FFB-FD2D-4979-976D-F8E466C3CC72}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
