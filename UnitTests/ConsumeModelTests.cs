@@ -65,6 +65,22 @@ namespace UnitTests
         }
 
         [Test]
+        public void ConsumeModel_Positive_Review_Prediction_Is_1()
+        {
+            // Arrange
+            var input = new ModelInput()
+            {
+                Text = "This place was awesome!" // if model is updated, this may need to be updated
+            };
+
+            // Act 
+            var result = ConsumeModel.Predict(input);
+
+            // Assert
+            Assert.AreEqual(result.Prediction, "1"); // '1' means review was positive
+        }
+
+        [Test]
         public void ConsumeModel_CreatePredictionEngine_Not_Null()
         {
             // Act
