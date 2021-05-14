@@ -35,5 +35,20 @@ namespace UnitTests
             Assert.AreEqual(item.Text, null);
             Assert.AreEqual(item.Label, null);
         }
+
+        [Test]
+        public void ModelInput_Set_Properties_Valid()
+        {
+            // Arrange
+            var item = new ModelInput()
+            {
+                Text = "Bogus text",
+                Label = "Bogus label"
+            };
+
+            // Assert
+            Assert.AreEqual(item.Text, "Bogus text");
+            Assert.AreEqual(item.Label, "Bogus label");
+        }
     }
 }
