@@ -35,5 +35,20 @@ namespace UnitTests
             Assert.AreEqual(item.Prediction, null);
             Assert.AreEqual(item.Score, null);
         }
+
+        [Test]
+        public void ModelOutput_Set_Properties_Valid()
+        {
+            // Arrange
+            var item = new ModelOutput()
+            {
+                Prediction = "Bogus prediction",
+                Score = new float[] { 1.0f }
+            };
+
+            // Assert
+            Assert.AreEqual(item.Prediction, "Bogus prediction");
+            Assert.AreEqual(item.Score, new float[] { 1.0f });
+        }
     }
 }
