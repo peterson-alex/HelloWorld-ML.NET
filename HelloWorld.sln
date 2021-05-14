@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorld.ConsoleApp", "He
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorld.MLModel", "HelloWorld.MLModel\HelloWorld.MLModel.csproj", "{8FAF2FFB-FD2D-4979-976D-F8E466C3CC72}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{FA99AF62-336F-408A-985B-8DCE92C10EFF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{8FAF2FFB-FD2D-4979-976D-F8E466C3CC72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FAF2FFB-FD2D-4979-976D-F8E466C3CC72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8FAF2FFB-FD2D-4979-976D-F8E466C3CC72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA99AF62-336F-408A-985B-8DCE92C10EFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA99AF62-336F-408A-985B-8DCE92C10EFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA99AF62-336F-408A-985B-8DCE92C10EFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA99AF62-336F-408A-985B-8DCE92C10EFF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
