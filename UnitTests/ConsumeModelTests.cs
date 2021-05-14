@@ -14,5 +14,15 @@ namespace UnitTests
         public void Setup()
         {
         }
+
+        [Test]
+        public void ConsumeModel_CreatePredictionEngine_Not_Null()
+        {
+            // Act
+            var predEngine = ConsumeModel.CreatePredictionEngine();
+
+            // Assert
+            Assert.IsNotNull(predEngine);
+        }
     }
 }
