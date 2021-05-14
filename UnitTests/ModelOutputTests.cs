@@ -24,5 +24,16 @@ namespace UnitTests
             // Assert
             Assert.NotNull(item);
         }
+
+        [Test]
+        public void ModelOutput_Properties_Default_Values_Null()
+        {
+            // Act
+            var item = new ModelOutput();
+
+            // Assert
+            Assert.AreEqual(item.Prediction, null);
+            Assert.AreEqual(item.Score, null);
+        }
     }
 }
