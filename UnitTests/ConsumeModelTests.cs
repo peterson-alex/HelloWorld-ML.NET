@@ -16,6 +16,22 @@ namespace UnitTests
         }
 
         [Test]
+        public void ConsumeModel_Predict_Not_Null()
+        {
+            // Arrange
+            var input = new ModelInput()
+            {
+                Text = "Bogus text"
+            };
+
+            // Act 
+            var result = ConsumeModel.Predict(input);
+
+            // Assert
+            Assert.IsNotNull(result);
+        }
+
+        [Test]
         public void ConsumeModel_CreatePredictionEngine_Not_Null()
         {
             // Act
