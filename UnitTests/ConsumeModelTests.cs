@@ -49,6 +49,22 @@ namespace UnitTests
         }
 
         [Test]
+        public void ConsumeModel_Predict_F_Score_Between_Zero_And_One()
+        {
+            // Arrange
+            var input = new ModelInput()
+            {
+                Text = "Bogus text"
+            };
+
+            // Act 
+            var result = ConsumeModel.Predict(input);
+
+            Assert.GreaterOrEqual(result.Score[0], 0); // greater than or equal to zero
+            Assert.LessOrEqual(result.Score[0], 1); // less than or equal to 1
+        }
+
+        [Test]
         public void ConsumeModel_CreatePredictionEngine_Not_Null()
         {
             // Act
