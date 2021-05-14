@@ -24,5 +24,16 @@ namespace UnitTests
             // Assert
             Assert.NotNull(item);
         }
+
+        [Test]
+        public void ModelInput_Properties_Default_Values_Null()
+        {
+            // Act
+            var item = new ModelInput();
+
+            // Assert
+            Assert.AreEqual(item.Text, null);
+            Assert.AreEqual(item.Label, null);
+        }
     }
 }
