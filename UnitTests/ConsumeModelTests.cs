@@ -81,6 +81,22 @@ namespace UnitTests
         }
 
         [Test]
+        public void ConsumeModel_Negative_Review_Prediction_Is_0()
+        {
+            // Arrange
+            var input = new ModelInput()
+            {
+                Text = "This place was awful!" // if model is updated, this may need to be updated
+            };
+
+            // Act 
+            var result = ConsumeModel.Predict(input);
+
+            // Assert
+            Assert.AreEqual(result.Prediction, "0"); // '0' means review was negative
+        }
+
+        [Test]
         public void ConsumeModel_CreatePredictionEngine_Not_Null()
         {
             // Act
