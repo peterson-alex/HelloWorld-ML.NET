@@ -10,10 +10,6 @@ namespace UnitTests
 {
     public class ConsumeModelTests
     {
-        [SetUp]
-        public void Setup()
-        {
-        }
 
         [Test]
         public void ConsumeModel_Predict_Not_Null()
