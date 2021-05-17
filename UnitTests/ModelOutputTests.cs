@@ -10,10 +10,6 @@ namespace UnitTests
 {
     public class ModelOutputTests
     {
-        [SetUp]
-        public void Setup()
-        {
-        }
 
         [Test]
         public void ModelOutput_Default_Not_Null()
