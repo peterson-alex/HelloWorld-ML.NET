@@ -10,11 +10,7 @@ namespace UnitTests
 {
     public class ModelInputTests
     {
-        [SetUp]
-        public void Setup()
-        {
-        }
-
+        
         [Test]
         public void ModelInput_Default_Not_Null()
         {
